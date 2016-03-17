@@ -52,7 +52,7 @@ nav li:hover{
 #logo{
     background-image:url(logoresize.png);
     /*background-size: contain;*/
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     background-repeat: no-repeat;
     padding-left: 80px;
     height: 65px;
