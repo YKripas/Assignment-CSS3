@@ -84,6 +84,9 @@ header{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     -webkit-border-top-left-radius: 20px;
+    /*background-image: url(logoresize.png) no-repeat;*/
+    background: linear-gradient(to right, black, white 45%,white 55%, black);
+    
 }
 footer{                                 /*ROUND CORNERS FOOTER*/
     border-bottom-left-radius: 20px;
@@ -119,8 +122,8 @@ footer{                                 /*ROUND CORNERS FOOTER*/
 }
 /*Adding Gradients*/
 footer{
-    background: linear-gradient(rgb(204,204,153), black);
-    -webkit-background: linear-gradient(rgb(204,204,153), black);
+    background: linear-gradient(rgb(204,204,153), white);
+    /*-webkit-background: linear-gradient(rgb(204,204,153), black);*/
     -moz-background: linear-gradient(rgb(204,204,153), black);
     -ms-background: linear-gradient(rgb(204,204,153), black);
     -o-background: linear-gradient(rgb(204,204,153), black);
