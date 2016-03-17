@@ -104,12 +104,24 @@ footer{                                 /*ROUND CORNERS FOOTER*/
 
 /*Drop shadow for img element within .center class*/
 .center img{
-    box-shadow: rgb(128,128,128) 5px 5px;
+    box-shadow: rgb(128,128,128) 5px 5px 4px;
     -moz-box-shadow: rgb(128,128,128) 5px 5px;
     -webkit-box-shadow:rgb(128,128,128) 5px 5px;
 }
 /*Drop Shadow for the table*/
 .listTable{
-    box-shadow:rgb(128,128,128) 5px 5px;
+    box-shadow:rgb(128,128,128) 5px 15px;
     border-radius: 25px;
 }
+
+#logo h1{
+    text-shadow: rgb(254,0,2) 5px 5px 4px;
+}
+
+footer{
+    background: linear-gradient(rgb(204,204,153), black);
+    -webkit-background: linear-gradient(rgb(204,204,153), black);
+    -moz-background: linear-gradient(rgb(204,204,153), black);
+    -ms-background: linear-gradient(rgb(204,204,153), black);
+    -o-background: linear-gradient(rgb(204,204,153), black);
+    }
