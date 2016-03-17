@@ -92,3 +92,24 @@ footer{                                 /*ROUND CORNERS FOOTER*/
 #layout{
     border-radius: 20px;
 }
+
+ /*Displaying every even row in light gray*/
+ .listTable > tbody > tr:nth-of-type(even){
+    background: rgba(60,60,60,0.2);
+    }
+/*Displaying every odd row in white*/
+.listTable > tbody > tr:nth-of-type(odd){
+    background: rgba(255,255,255,0.2);
+    }
+
+/*Drop shadow for img element within .center class*/
+.center img{
+    box-shadow: rgb(128,128,128) 5px 5px;
+    -moz-box-shadow: rgb(128,128,128) 5px 5px;
+    -webkit-box-shadow:rgb(128,128,128) 5px 5px;
+}
+/*Drop Shadow for the table*/
+.listTable{
+    box-shadow:rgb(128,128,128) 5px 5px;
+    border-radius: 25px;
+}
