@@ -52,7 +52,7 @@ nav li:hover{
 #logo{
     background-image:url(logoresize.png);
     /*background-size: contain;*/
-    background-color: black;
+    background-color: aquamarine;
     background-repeat: no-repeat;
     padding-left: 80px;
     height: 65px;
@@ -117,7 +117,7 @@ footer{                                 /*ROUND CORNERS FOOTER*/
 #logo h1{
     text-shadow: rgb(254,0,2) 5px 5px 4px;
 }
-
+/*Adding Gradients*/
 footer{
     background: linear-gradient(rgb(204,204,153), black);
     -webkit-background: linear-gradient(rgb(204,204,153), black);
@@ -125,3 +125,6 @@ footer{
     -ms-background: linear-gradient(rgb(204,204,153), black);
     -o-background: linear-gradient(rgb(204,204,153), black);
     }
+header{
+    
+}
