@@ -34,10 +34,17 @@ h2{
 /*Starting the 'layout' div customization*/
 #layout {
     /*background-color: white;*/
-    background-color:rgba(254,0,2, 0.6);
+    background-color:rgba(254,0,2, 0.9);
     /*border-color: rgb(254,0,2);*/
     
 }
+/*Customizing Nav*/
+
+nav{
+    background-color: rgba(254,0,2, 0.6);
+    /*opacity: 0.5;*/
+    padding: 5px 5px 5px 5px;
+        }
 
 /*Logo work*/
 #logo {
@@ -71,13 +78,7 @@ footer{
     
 }
 
-/*Customizing Nav*/
 
-nav{
-    background-color: rgb(254,0,2);
-    opacity: 0.5;
-    padding: 5px 5px 5px 5px;
-        }
 /*nav li{
     display: inline;
 }*/
