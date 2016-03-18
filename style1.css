@@ -34,8 +34,7 @@ h2{
 /*Starting the 'layout' div customization*/
 #layout {
     /*background-color: white;*/
-    background-color:rgba(254,0,2,0.7);
-    /*border: 20px 20px 20px 20px;*/
+    background-color:rgba(254,0,2, 0.6);
     border-color: rgb(254,0,2);
     
 }
@@ -75,8 +74,8 @@ footer{
 /*Customizing Nav*/
 
 nav{
-    background-color: rgba(254,0,2,0.0);
-    /*opacity: 0.0;*/
+    background-color: rgb(254,0,2);
+    opacity: 0.5;
     padding: 5px 5px 5px 5px;
         }
 /*nav li{
